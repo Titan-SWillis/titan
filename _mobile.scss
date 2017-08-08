@@ -1,0 +1,111 @@
+
+/*-------
+## Mobile
+-------*/
+
+@media (max-width:767px) {
+	.mobile-center {
+		text-align:center;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.navbar-brand {
+		height: auto;
+	}
+
+	.navbar-nav {
+		margin: 7.5px 0px;
+	}
+
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.navbar-header, .navbar-default {
+		background-color: transparent;
+		border: none;
+		margin-bottom: 0;
+	}
+
+	.nav.navbar-nav.social>li {
+		display: inline-block;
+	}
+
+	.menu-social-container {
+		text-align: center;
+	}
+
+	.nav-nopad {
+	padding-left: 0;
+	padding-right: 0;
+	}
+
+	.navbar-collapse {
+	  width: 100%;
+		height: auto;
+		min-height: 100%;
+		background-color: #4c80b1;
+	}
+
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+		background-color: white;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: red;
+	}
+
+	.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		font-size: 1.6rem;
+		color: inherit;
+		word-wrap: break-word;
+		white-space: normal;
+	}
+
+	.navbar-toggle {
+	  border: none;
+	  background: transparent !important;
+	}
+	.navbar-toggle:hover {
+	  background: transparent !important;
+	}
+	.navbar-toggle .icon-bar {
+	  width: 22px;
+	  transition: all 0.2s;
+	}
+	.navbar-toggle .top-bar {
+	  transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+	  transform-origin: 10% 10%;
+		-ms-transform-origin: 10% 10%;
+		-webkit-transform-origin: 10% 10%;
+	}
+	.navbar-toggle .middle-bar {
+	  opacity: 0;
+	}
+	.navbar-toggle .bottom-bar {
+	  transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	  transform-origin: 10% 90%;
+		-ms-transform-origin: 10% 90%;
+		-webkit-transform-origin: 10% 90%;
+	}
+		.navbar-toggle.collapsed .top-bar {
+	  transform: rotate(0);
+		-ms-transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+	.navbar-toggle.collapsed .middle-bar {
+	  opacity: 1;
+	}
+	.navbar-toggle.collapsed .bottom-bar {
+	  transform: rotate(0);
+		-ms-transform: rotate(0);
+		-webkit-transform: rotate(0);
+	}
+
+}

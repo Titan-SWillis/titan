@@ -1,0 +1,128 @@
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+/* Chrome Width Issue */
+
+.gform_wrapper.gf_browser_chrome .gform_body {
+    width: 100%!important;
+}
+
+/* Required Color */
+
+.gform_wrapper .gfield_required {
+		color: #E20D15!important;
+		margin-left: 4px;
+}
+
+/* Validation Error Messages */
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent!important;
+		border:0px!important;
+}
+
+.gform_wrapper .gfield_error .gfield_label, .gform_wrapper .validation_message {
+	color: #E20D15!important;
+
+}
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+	margin: 0!important;
+}
+
+.gform_wrapper div.validation_error {
+	color: #E20D15!important;
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 25px;
+	border-top: 2px solid #E20D15!important;
+	border-bottom: 2px solid #E20D15!important;
+}
+
+.gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+	    max-width: 100%!important;
+			width: 100%!important;
+}
+
+.gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100%!important;
+}
+
+
+.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container, .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: 0px!important;
+}
+
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border: 1px solid #E20D15!important;
+	}
+
+	/* Style border, background color, and fonts */
+
+	.gform_wrapper textarea, .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+		background-color: #FFF;
+		border:0px;
+	  font-size: 1.4rem!important;
+		color:#000!important;
+	}
+
+	/* Placeholder Color */
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  color: #000;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+		color: #000;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+		color: #000;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+		color: #000;
+	}
+
+
+
+	/* Submit Button Styles */
+	.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+		display:inline-block;
+		font-size: 2.4rem!important;
+		/*
+		color: ;
+		background-color: ;
+		*/
+		font-weight: 700;
+		border-width: 2px;
+		border-style: solid;
+		border-radius: 10px;
+		display:inline-block;
+		padding: 1rem 2rem;
+		vertical-align: middle;
+		cursor:pointer;
+	}
+
+/* Submit Button Hover & Focus Styles */
+	.gform_wrapper .gform_footer input.button:hover, .gform_wrapper .gform_footer input[type=submit]:hover, .gform_wrapper .gform_page_footer input.button:hover, .gform_wrapper .gform_page_footer input[type=submit]:hover,
+	.gform_wrapper .gform_footer input.button:focus, .gform_wrapper .gform_footer input[type=submit]:focus, .gform_wrapper .gform_page_footer input.button:focus, .gform_wrapper .gform_page_footer input[type=submit]:focus {
+		text-decoration: none;
+		/*
+		color: ;
+		background-color: ;
+		*/
+	}
+
+
+/* Submit Button on Mobile */
+	@media (max-width: 767px) {
+		.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+			font-size: 1.4rem!important;
+		}
+	}
+
+
+/* Remove Ajax Spinner -- It sometimes takes up the full-width and looks broken */
+body img.gform_ajax_spinner {
+	display: none!important;
+}

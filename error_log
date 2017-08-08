@@ -1,0 +1,7 @@
+[01-Mar-2016 09:54:03 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/titan4/public_html/wp-content/themes/titan/header.php on line 13
+[01-Mar-2016 09:54:03 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/titan4/public_html/wp-content/themes/titan/functions.php on line 28
+[01-Mar-2016 09:54:03 UTC] PHP Fatal error:  Call to undefined function esc_url() in /home/titan4/public_html/wp-content/themes/titan/footer.php on line 18
+[01-Mar-2016 09:54:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/titan4/public_html/wp-content/themes/titan/author.php on line 1
+[01-Mar-2016 09:54:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/titan4/public_html/wp-content/themes/titan/archive.php on line 10
+[01-Mar-2016 09:54:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/titan4/public_html/wp-content/themes/titan/404.php on line 10
+[01-Mar-2016 09:54:04 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/titan4/public_html/wp-content/themes/titan/404.php on line 10

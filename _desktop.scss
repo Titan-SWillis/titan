@@ -1,0 +1,49 @@
+
+/*-------
+Desktop
+--------*/
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		height: auto;
+	}
+	.navbar-nav {
+		float: right;
+		margin-right: -1.5rem;
+	}
+	.navbar-default {
+		border-color: transparent;
+	}
+	.navbar {
+		border-radius: 0;
+	}
+	.menu-social-container {
+		display: block;
+		float: right;
+		width: 50%;
+	}
+	.container>.navbar-collapse {
+		margin-right: -1.5rem;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: teal;
+		font-size: 1.6rem;
+		-webkit-transition: all .3s ease-in-out;
+	  -moz-transition: all .3s ease-in-out;
+	  -ms-transition: all .3s ease-in-out;
+	  -o-transition: all .3s ease-in-out;
+	  transition: all .3s ease-in-out;
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		color: lightblue;
+	}
+	/*Active Nav Item*/
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		background-color: transparent;
+		color: lightblue;
+	}
+}
+
+.tos-list {
+	font-size: 1.5rem!important;
+}
